@@ -1,0 +1,24 @@
+.mainContainer {
+	width: 80vw;
+	margin: 3% auto;
+}
+.mid {
+	border: solid blue;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.gameContainer {
+	border: solid red;
+	display: flex;
+	justify-content: space-evenly;
+
+	margin: 0 auto;
+	width: 50%;
+}
+
+
+.rules {
+	border: solid fuchsia;
+	width: 50%;
+}
