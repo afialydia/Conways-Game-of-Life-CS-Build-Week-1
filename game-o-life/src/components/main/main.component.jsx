@@ -4,6 +4,9 @@ import Gameboard from "../gameboard/gameboard.component";
 import Presets from "../presets/presets.component";
 
 const MainContainer = () => {
+
+
+    
 	return (
 		<div className="mainContainer">
 			<div>
@@ -13,7 +16,7 @@ const MainContainer = () => {
 				<div className='gameContainer'>
                     <Gameboard/>
 					<Presets/>
-                    
+
 				</div>
 				<div className='rules'>
 					<h3>rules</h3>
