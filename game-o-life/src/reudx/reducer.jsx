@@ -43,8 +43,8 @@ const game_reducer = (state = INITIAL_STATE, action) => {
 		case GameTypes.STOP:
 			return {
 				...state,
-				timerId: null,
-				isRuninng: false,
+				timerId: action.timerId,
+				isRunning: false,
 			};
 		case GameTypes.TOGGLE_ALIVE:
 			let board = state.game_grid.slice(0);

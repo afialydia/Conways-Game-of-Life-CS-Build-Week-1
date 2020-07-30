@@ -1,3 +1,6 @@
 .conatainerInner {
-	border: solid greenyellow;
+	/* border: solid greenyellow; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }

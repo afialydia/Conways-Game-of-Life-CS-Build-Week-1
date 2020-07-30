@@ -6,7 +6,7 @@ import Presets from "../presets/presets.component";
 const MainContainer = () => {
 
 
-    
+
 	return (
 		<div className="mainContainer">
 			<div>
@@ -14,16 +14,15 @@ const MainContainer = () => {
 			</div>
 			<div className='mid'>
 				<div className='gameContainer'>
-                    <Gameboard/>
-					<Presets/>
-
+					<Gameboard />
 				</div>
 				<div className='rules'>
 					<h3>rules</h3>
 					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-						alias est, amet minus harum sed animi qui veniam nisi fugit, nam
-						iste blanditiis voluptate vero, et omnis suscipit atque inventore?
+						<b>Any live cell with fewer than two live neighbours dies, as if by underpopulation.</b><br></br>
+						<b>Any live cell with two or three live neighbours lives on to the next generation.
+						Any live cell with more than three live neighbours dies, as if by overpopulation.</b><br></br>
+						<b>Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.</b>
 					</p>
 				</div>
 			</div>

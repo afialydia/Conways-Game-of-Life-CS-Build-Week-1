@@ -3,13 +3,15 @@
 	margin: 3% auto;
 }
 .mid {
-	border: solid blue;
+	/* border: solid blue; */
+	background: rgb(217,235,167);
+	border-radius: 12px;
 	display: flex;
 	justify-content: space-evenly;
 }
 
 .gameContainer {
-	border: solid red;
+	/* border: solid red; */
 	display: flex;
 	justify-content: space-evenly;
 
@@ -19,6 +21,6 @@
 
 
 .rules {
-	border: solid fuchsia;
+	/* border: solid fuchsia; */
 	width: 50%;
 }

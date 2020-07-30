@@ -1,3 +1,28 @@
 .controls {
 	border: solid orange;
 }
+.button{
+	background-color: rgb(230,3,207);
+}
+
+.button:hover {
+	background: rgb(230,3,207);
+  }
+  
+  .button-group {
+	display: inline-block;
+  }
+  
+  .button-group .button {
+	border-right: 1px solid rgb(230,3,207);
+	margin-right: 0px;
+  }
+  
+  .button-group .button:last-child {
+	border-right: 0
+  }
+  
+  .fa-pause, .fa-play, .fa-step-forward {
+	width: 1em;
+	text-align: center;
+  }
